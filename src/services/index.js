@@ -1,0 +1,11 @@
+module.exports.authService = require('./auth.service');
+//module.exports.emailService = require('./email.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+module.exports.roleService = require('./role.service');
+module.exports.caseService = require('./case.service');
+module.exports.cptService = require('./cpt.service');
+module.exports.icdService = require('./icd.service');
+module.exports.practiceService = require('./practice.service');
+module.exports.practiceStaffService = require('./practiceStaff.service');
+module.exports.notificationService = require('./notification.service');
